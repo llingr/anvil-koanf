@@ -8,7 +8,7 @@ require (
 	github.com/knadh/koanf/providers/env/v2 v2.0.1
 	github.com/knadh/koanf/providers/fs v1.0.1
 	github.com/knadh/koanf/v2 v2.3.6
-	github.com/llingr/anvil v0.0.7
+	github.com/llingr/anvil v0.1.0
 )
 
 require (
