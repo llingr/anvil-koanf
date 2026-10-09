@@ -33,8 +33,6 @@ configProvider := conf.NewProvider[Config](configFiles)
 
 ## Features
 
-- **Strict mapping.** A key with no matching field, such as a misspelling, fails the load and is
-  named, rather than leaving the field at its zero value.
 - **Environment overrides.** `APP_SERVER_PORT` overrides `app.server.port`. A variable naming no key
   is ignored, so the files stay the complete list of settings.
 - **Embedded files.** The `*.yaml` files at the root of an `fs.FS`: `go:embed` chooses the files,
